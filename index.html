@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Card Hover Effects</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="img-box">
+                <img src="image/image1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Monica Helleona <br> 
+                    <span>Branding & Strategy</span></h2>
+                <p>Phasellus volutpat egestas odio 
+                in venenatis. Sed vitae mattis 
+                turpis.</p>
+                <ul>
+                     <li>
+                        <a href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                     <li>
+                        <a href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                     <li>
+                        <a href="#">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="card">
+            <div class="img-box">
+                <img src="image/image2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Brendan Alestico <br> 
+                    <span>Photographer</span></h2>
+                <p>Morbi ut ligula augue. Morbi sed 
+                    feugiat augue. Mauris ac diam 
+                    tortor.</p>
+                    <ul>
+                        <li>
+                           <a href="#">
+                               <i class="fa fa-facebook" aria-hidden="true"></i>
+                           </a>
+                       </li>
+                        <li>
+                           <a href="#">
+                               <i class="fa fa-twitter" aria-hidden="true"></i>
+                           </a>
+                       </li>
+                        <li>
+                           <a href="#">
+                               <i class="fa fa-linkedin" aria-hidden="true"></i>
+                           </a>
+                       </li>
+                   </ul>
+            </div>
+            
+        </div>
+        <div class="card">
+            <div class="img-box">
+                <img src="image/image3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Kennifer Monalica <br> 
+                    <span>Video Editor</span></h2>
+                <p>Ut ultricies tempus volutpat. Pellentesque 
+                    rutrum libero sed arcu consequat lobortis.</p>
+                    <ul>
+                        <li>
+                           <a href="#">
+                               <i class="fa fa-facebook" aria-hidden="true"></i>
+                           </a>
+                       </li>
+                        <li>
+                           <a href="#">
+                               <i class="fa fa-twitter" aria-hidden="true"></i>
+                           </a>
+                       </li>
+                        <li>
+                           <a href="#">
+                               <i class="fa fa-linkedin" aria-hidden="true"></i>
+                           </a>
+                       </li>
+                   </ul>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/tilt.jquery.js"></script>
+    <script type="text/javascript">
+          $(document).ready(function(){
+              $('.card').tilt({
+                  maxTilt:20,
+                  glare:true,
+                  maxGlare: .4,
+              })
+          })
+    </script>
+</body>
+</html>
